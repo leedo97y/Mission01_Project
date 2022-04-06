@@ -1,1 +1,79 @@
 /* CSS 작성 */
+.main-logo {
+  position: absolute;
+  width: 176px;
+  height: 40px;
+  left: 321px;
+  top: 100px;
+}
+
+.content-box {
+  position: absolute;
+  width: 1020px;
+  height: 1010px;
+  left: 321px;
+  top: 188px;
+}
+
+.headline {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+
+  position: absolute;
+  width: 366px;
+  height: 28px;
+  left: 0;
+  top: 8px;
+  }
+
+.today-title {
+  position: static;
+  width: 117px;
+  height: 28px;
+  left: 0;
+  top: 0;
+
+  font-size: 24px;
+  line-height: 27.6px;
+  text-align: center;
+  color: #181818;
+  margin: 0 10px;
+}
+
+.mini-bar{
+  position: static;
+  width: 2px;
+  height: 20px;
+  left: 127px;
+  top: 4px;
+  
+  background-color: #aaa9a9;
+
+  margin: 0 10px;
+}
+
+.today-sub-title {
+  display: flex;
+  align-items: center;
+  position: static;
+  width: 227px;
+  height: 18.4px;
+  left: 139px;
+  top: 5px;
+  
+
+  font-size: 16px;
+  line-height: 18px;
+  color: #aaa9a9;
+}
+
+.card-box {
+  position: absolute;
+  width: 1020px;
+  height: 958px;
+  left: 0;
+  top: 60px;
+}
