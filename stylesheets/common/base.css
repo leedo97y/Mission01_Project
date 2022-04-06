@@ -1,1 +1,11 @@
 /* Base 스타일 작성 */
+
+* {
+  font-family: 'Noto Sans';
+  font-weight: 500 medium;
+}
+
+body {
+  margin: 0px;
+}
+
