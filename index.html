@@ -25,32 +25,29 @@
   <!-- 콘텐츠박스 -->
   <div class="content-box">
     <!-- 헤드라인 -->
-    <div class="headline">
-      <span class="today-title">오늘의 발견</span>
-      <span class="mini-bar"></span>
-      <span class="today-sub-title">오늘 쿠팡이 엄선한 가장 핫한 제품</span>
-    </div>
+    <section class="headline">
+      <h2 class="today-title">오늘의 발견</h2>
+      <h2 class="mini-bar wai-aria">|</h2>
+      <h3 class="today-sub-title">오늘 쿠팡이 엄선한 가장 핫한 제품</h3>
+    </section>
     <!-- //헤드라인 -->
 
     <!-- 카드부분 -->
     <div class="card-box">
       <div class="all-cards">
-        <!-- 클릭하면 열리게 -->
-        <div class="item-card is-closed">
-          <button class="btn-buy">
-            <span class="btn-text">구매하기</span>
-          </button>
-        </div>
         <div class="item-card">
-          <button class="btn-buy hidden">
-            <span class="btn-text">구매하기</span>
-          </button>
+          <a href="/"><img src="./assets/discovery/honeytea.jpg" alt="오뚜기 꿀생강차"></a>
+          <div class="ico-arrow">
+            <a class="btn-text" href="/">
+              <span class="btn-text">구매하기</span>
+              <svg width="42" height="41" viewBox="0 0 42 41" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M23.0044 20L18 15.9428L18.8326 15L25 20L18.8326 25L18 24.0572L23.0044 20Z" fill="#F4F4F4"/>
+              </svg>
+            </a>
+          </div>
         </div>
-        
       </div>
     </div>
-    <!-- //카드부분 -->
-
   </div>
   <!-- //콘텐츠박스 -->
 </body>
