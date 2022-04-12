@@ -1,4 +1,9 @@
 /* CSS 작성 */
+header,
+section {
+  margin: auto;
+}
+
 .main-logo {
   position: absolute;
   width: 176px;
@@ -37,10 +42,14 @@
   top: 0;
 
   font-size: 24px;
-  line-height: 27.6px;
+  line-height: 27px;
   text-align: center;
   color: #181818;
   margin: 0 10px;
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
 }
 
 .mini-bar{
@@ -49,8 +58,7 @@
   height: 20px;
   left: 127px;
   top: 4px;
-  
-  background-color: #aaa9a9;
+  color: --color-gray-600;
 
   margin: 0 10px;
 }
@@ -67,11 +75,17 @@
 
   font-size: 16px;
   line-height: 18px;
-  color: #aaa9a9;
+  color: --color-gray-600;
+
+  flex: none;
+  order: 2;
+  flex-grow: 0;
+  margin: 0 10px;
 }
 
 .card-box {
   position: absolute;
+  float: initial;
   width: 1020px;
   height: 958px;
   left: 0;
