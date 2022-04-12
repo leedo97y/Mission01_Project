@@ -1,1 +1,11 @@
 /* Theme 스타일 작성 */
+
+* { 
+  --color-blue-500: #0096E4;
+  --color-red-500: #e5233d;
+  --color-green-500: #c7cd1d;
+  --color-gray-500: #c4c4c4;
+  --color-black: #181818;
+  --color-white: #ffffff;
+}
+
