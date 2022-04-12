@@ -1,7 +1,9 @@
 /* Base 스타일 작성 */
 
+/* 기본 글자 크기 및 웹 폰트 선언 */
 * {
-  font-family: 'Noto Sans';
+  box-sizing: border-box;
+  font-family: 'Noto Serif KR';
   font-weight: 500 medium;
 }
 
