@@ -28,21 +28,21 @@ section {
   padding: 0;
 
   position: absolute;
-  width: 366px;
-  height: 28px;
+  width: 400px;
+  height: 33px;
   left: 0;
   top: 8px;
   }
 
 .today-title {
   position: static;
-  width: 117px;
-  height: 28px;
+  width: 130px;
+  height: 33px;
   left: 0;
   top: 0;
 
   font-size: 24px;
-  line-height: 27px;
+  /* line-height: 27px; */
   text-align: center;
   color: #181818;
   margin: 0 10px;
@@ -55,10 +55,10 @@ section {
 .mini-bar{
   position: static;
   width: 2px;
-  height: 20px;
+  height: 25px;
   left: 127px;
   top: 4px;
-  color: --color-gray-600;
+  color: var(--color-gray-600);
 
   margin: 0 10px;
 }
@@ -67,15 +67,15 @@ section {
   display: flex;
   align-items: center;
   position: static;
-  width: 227px;
-  height: 18.4px;
+  width: 255px;
+  height: 23.4px;
   left: 139px;
   top: 5px;
   
 
   font-size: 16px;
-  line-height: 18px;
-  color: --color-gray-600;
+  /* line-height: 18px; */
+  color: var(--color-gray-600);
 
   flex: none;
   order: 2;
